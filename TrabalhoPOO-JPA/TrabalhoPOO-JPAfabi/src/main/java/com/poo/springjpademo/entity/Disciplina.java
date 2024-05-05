@@ -20,7 +20,7 @@ public class Disciplina {
     @ManyToOne
     private Turma nomeTurma;
     @ManyToOne
-    private Sala nomeSala;//ARRUMAR ISSO AQUI AAAAAAAAAAAAAA
+    private Sala nomeSala;
     @ManyToOne
     private Professor nomeProfessor;
 
